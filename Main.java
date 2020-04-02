@@ -24,6 +24,8 @@ public class Main {
      * @param args
      */
     public static void main(String[] args) {
-	// write your code here
+	    Board board = new Board();
+	    board.insert(0,0,"D");
+        board.display();
     }
 }
